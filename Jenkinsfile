@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    envirnoment{
+    envirnoment {
         DOCKER_IMAGE_NAME="dpoudel75/train-schedule"
     }
     stages {
